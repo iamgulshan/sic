@@ -34,7 +34,7 @@
 	 $link=mysql_connect("localhost","root","1234") or die("Cannot Connect to the database!");
 	
 	 mysql_select_db("department",$link) or die ("Cannot select the database!");
-	 $query="DELETE FROM students WHERE id='".$id."'";
+	 $query="DELETE FROM `studentinfo`.`students` WHERE `students`.`id`='".$id."'";
 		
 		  if(!mysql_query($query,$link))
 		  {die ("An unexpected error occured while <b>deleting</b> the record, Please try again!");}
