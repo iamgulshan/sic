@@ -1,0 +1,7 @@
+To check this site, Just import the file 'mysql.sql' in PhpMyAdmin. 
+and extract the remaing files in the www folder... (Using WAMP/XAMP or any other server)
+If you're not using PhpMyAdmin then import 'mysql.sql' through MySQL Database server.
+
+If you're still facing difficulties then email me @ iamgulshankj@gmail.com for more help.
+
+Thank you, regards.
