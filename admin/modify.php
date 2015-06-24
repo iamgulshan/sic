@@ -31,7 +31,7 @@
     <?php 
 	 	 $link=mysql_connect("localhost","root","1234") or die("Cannot Connect to the database!");
 	
-	 mysql_select_db("department",$link) or die ("Cannot select the database!");
+	 mysql_select_db("studentinfo",$link) or die ("Cannot select the database!");
 	 $query="SELECT * FROM students";
 		
 		  $resource=mysql_query($query,$link);
